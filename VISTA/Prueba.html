@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Prueba de orientación profesional</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Estilos del sitio web -->
+    <link href="css/site.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="brand pull-left" href="#">
+                <img src="http://www.politecnicojic.edu.co/images/logo/logo.png" alt="" class="img-responsive logo logo-poli"> </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Programas.html">Programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Prueba.html">Prueba</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br> 
+     <section class="container py-4">
+        <div class="row">
+            <div class="col-md-12">
+                <center><h2>Prueba de Orientación Profesional</h2></center>
+                <ul id="tabsJustified" class="nav nav-tabs">
+                    <li class="nav-item"><a  data-target="#paso1" class="nav-link small text-uppercase active"><b>PASO 1 - REGISTRO</b></a></li>
+                    <li class="nav-item"><a data-target="#paso2" href="#paso2" class="nav-link small text-uppercase "><b>PASO 2 - PRUEBA</b></a></li>
+                    <li class="nav-item"><a  data-target="#paso3" href="#paso3" class="nav-link small text-uppercase"><b>PASO 3 - RESULTADOS</b></a></li>
+                    <!--data-toggle="tab" ..... para ir a  los link ...  href="" -->
+                </ul>
+                <br>
+                <div id="tabsJustifiedContent" class="tab-content">
+                    <div id="paso1" class="tab-pane fade active show">
+                        <form id="Form1" class="form-horizontal">
+                        <fieldset>
+
+                        <!-- Form Name - si la respuesta es no permitir pasar al siguiente paso -->
+                        <legend><b><center>Registrar Información</center></b></legend>
+
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><center>¿Desea suminitrar sus datos al portal web para enviarle información en el futuro?</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="Training" id="Training-0" value="si" checked="">
+                                  Si
+                                </label> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="Training" id="Training-1" value="no">
+                                  No
+                                </label>
+                              </div>
+                            </div></center>
+                            <center>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <!--<label class="col-md-2 control-label" for="Nombre">Nombre</label>-->  
+                              <div class="col-md-4">
+                              <input id="Nombre" name="Nombre" type="text" placeholder="Nombre" class="form-control input-md" required="">
+                                
+                              </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <!--<label class="col-md-2 control-label" for="Apellido">Apellido</label>-->  
+                                  <div class="col-md-4">
+                                  <input id="Apellido" name="Apellido" type="text" placeholder="Apellido" class="form-control input-md" required="">
+                                    
+                                  </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                              <!--<label class="col-md-2 control-label" for="Correo">Correo</label>-->  
+                                  <div class="col-md-4">
+                                  <input id="Correo" name="Correo" type="email" placeholder="Correo" class="form-control input-md" required="">
+                                    
+                                  </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="submit1"></label>
+                                <div class="col-md-4">
+                                <button id="submit1" name="submit1" class="btn btn-primary">SIGUIENTE</button>
+                              </div>
+                            </div></center>
+                        </fieldset>
+                      </form>                   
+                  </div>
+                        
+
+                    <div id="paso2" class="tab-pane fade">
+                        <legend><b><center>Realizar Prueba</center></b></legend>
+                         
+                        <p><b>Instrucciones antes de iniciar la prueba : </b> La prueba de orientación profesionales no es un examen de conocimientos, por lo tanto no contiene respuestas correctas o incorrectas; es un registro de tus intereses, y toda respuesta es considerada satisfactoria si es verdaderamente representativa de tus preferencias. Es por ello que debe realizarse de manera personal. Cada uno de los ítems representa una actividad propia de trabajos profesionales o de tareas realizadas por los estudiantes durante el aprendizaje de un programa profesional. Lee cada ítem y selecciona la casilla correspondiente a tu respuesta, <strong>Me Gusta (MG) o No Me Gusta (NMG).</strong></center></p>
+
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>1. </b>Cantar en coros.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T1" id="T1MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T1" id="T1NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>2. </b>Trabajar con calculadoras.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T2" id="T2MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T2" id="T2NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>3. </b>Aprender decoración.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T3" id="T3MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T3" id="T3NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>4. </b>Estudiar los ecosistemas de una región.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T4" id="T4MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T4" id="T4NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                             <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>5. </b>Aprender a interpretar planos civiles.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T5" id="T5MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T5" id="T5NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>6. </b>Organizar la producción en una industria química.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T6" id="T6MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T6" id="T6NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>7. </b>Supervisar obras en consrucción.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T7" id="T7MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T7" id="T7NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>8. </b>Investigar el nivel de los precios.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T8" id="T8MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T8" id="T8NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>9. </b>Evaluar daños en edificios y viviendas.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T9" id="T9MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T9" id="T9NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>10. </b>Resolver ecuaciones matemáticas.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T10" id="T10MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T10" id="T10NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>11. </b>Trabajar con equipos electrónicos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T11" id="T11MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T11" id="T11NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>12. </b>Elaborar una crítica de una obra artística teatral o cinematográfica.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T12" id="T12MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T12" id="T12NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>13. </b>Evaluar el estado de redes de telecomunicaciones.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T13" id="T13MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T13" id="T13NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>14. </b>Aprender a utilizar instrumentos cinematográficos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T14" id="T14MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T14" id="T14NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>15. </b>Aprender a realizar análisis bioquímicos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T15" id="T15MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T15" id="T15NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>16. </b>Aprender a tomar fotografías periodísticas.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T16" id="T16MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T16" id="T16NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>17. </b>Enseñar a deportistas.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T17" id="T17MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T17" id="T17NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>18. </b>Asesorar sobre el cuidado de cultivos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T18" id="T18MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T18" id="T18NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>19. </b>Diagnosticar la situción contable.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T19" id="T19MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T19" id="T19NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>20. </b>Gerenciar empresas agropecuarias.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T20" id="T20MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T20" id="T20NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>21. </b>Aportar soluciones a las comunidades rurales.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T21" id="T21MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T21" id="T21NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>22. </b>Dirigir entrenamientos deportivos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T22" id="T22MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T22" id="T22NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>23. </b>Realizar lúdicas y actividades recreativas.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T23" id="T23MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T23" id="T23NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>24. </b>Desarrollar estrategias de prevención de riesgos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T24" id="T24MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T24" id="T24NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>25. </b>Gerenciar en la gestión de riesgos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T25" id="T25MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T25" id="T25NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>26. </b>Gerenciar clubes deportivos.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T26" id="T26MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T26" id="T26NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>27. </b>Preparar físicamente.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T27" id="T27MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T27" id="T27NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>28. </b>Desarrollar proyectos de medición y control.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T28" id="T28MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T28" id="T28NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                             <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>29. </b>Diseñar interfaces para sistemas de adquisición de datos y procesamiento de señales.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T29" id="T29MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T29" id="T29NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>30. </b>Desarrollar software .</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T30" id="T30MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T30" id="T30NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>31. </b>Dirigir el área de higiene y seguridad ocupacional.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T31" id="T31MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T31" id="T31NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-md-12 control-label" for="Training"><b>32. </b>Brindar asesorías contables y tributarias.</label>
+                              <div class="col-md-4"> 
+                                <label class="radio-inline" for="Training-0">
+                                  <input type="radio" name="T32" id="T32MG" value="MG">
+                                  MG
+                                </label><br> 
+                                <label class="radio-inline" for="Training-1">
+                                  <input type="radio" name="T32" id="T32NMG" value="NMG">
+                                  NMG
+                                </label><br>
+                              </div>
+                            </div>
+                            <div class="form-group"><center>
+                                <label class="col-md-4 control-label" for="submit"></label>
+                                <div class="col-md-4">
+                                <button id="submit2" name="submit2" class="btn btn-primary">SIGUIENTE</button>
+                              </div></center>
+                            </div>
+                        
+                    </div>
+                    <div id="paso3" class="tab-pane fade">
+                         <legend><b><center>Resultados Obtenidos</center></b></legend><br>
+                         <div id="resultados"></div>
+                         <div class="form-group"><center>
+                                <label class="col-md-4 control-label" for="submit"></label>
+                                <div class="col-md-4">
+                                    <button id="submit3" name="submit3" class="btn btn-primary">SALIR</button>
+                              </div></center>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    <script type="text/javascript">
+        //Funcion para obtener el valor del radiobutton y cambiar al tab siguiente 
+         $(document).ready(function() {
+              var sw=0;
+              var Respuestas = [];
+              var form1 = $("#Form1");
+              form1.validate({
+                  rules: {
+                      Nombre: "required",
+                      Apellido: "required",
+                      Correo: "required email"
+                  },
+                  messages: {
+                      Nombre: "Ingrese su nombre",
+                      Apellido: "Ingrese su apellido",
+                      Correo: {
+                        required: "Ingrese su correo electronico",
+                        email: "Por favor ingrese un correo electronico válido"
+                        }
+                    }
+              });
+
+              $('#submit1').click(function(){ 
+                  if (form1.valid()) {
+                    $('.nav-tabs a[href="#paso2"]').tab('show');
+                    return false;
+                  }
+              });
+              $('input[name=Training]').change(function(){
+                  checkedSi = $( 'input[name=Training]:checked' ).val();
+                    if(checkedSi === 'no')
+                    {
+                        $('.nav-tabs a[href="#paso2"]').tab('show');
+                        return false;
+                                            
+                    }
+                    
+               });
+                  
+               $('#submit2').click(function(){
+                  console.log("sw : "+sw);
+                    if(sw >= 32){
+                         MandarDatos();
+                         $('.nav-tabs a[href="#paso3"]').tab('show');
+                         return false;
+                     }else{
+                        alert('Todas las preguntas deben ser respondidas');
+                     }
+               });      
+               $('input[name=T1]').change(function(){
+                     Respuestas[0] = $( 'input[name=T1]:checked' ).val();
+                     if(Respuestas[0] !== '')
+                      {
+                        sw= sw+1;                       
+                      }               
+                }); 
+                $('input[name=T2]').change(function(){
+                      Respuestas[1] = $( 'input[name=T2]:checked' ).val();   
+                      if(Respuestas[1] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T3]').change(function(){
+                      Respuestas[2] = $( 'input[name=T3]:checked' ).val();   
+                      if(Respuestas[2] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T4]').change(function(){
+                      Respuestas[3] = $( 'input[name=T4]:checked' ).val();   
+                      if(Respuestas[3] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T5]').change(function(){
+                      Respuestas[4] = $( 'input[name=T5]:checked' ).val();   
+                      if(Respuestas[4] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T6]').change(function(){
+                      Respuestas[5] = $( 'input[name=T6]:checked' ).val();   
+                      if(Respuestas[5] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T7]').change(function(){
+                      Respuestas[6] = $( 'input[name=T7]:checked' ).val();   
+                      if(Respuestas[6] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T8]').change(function(){
+                      Respuestas[7] = $( 'input[name=T8]:checked' ).val();   
+                      if(Respuestas[7] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T9]').change(function(){
+                      Respuestas[8] = $( 'input[name=T9]:checked' ).val();   
+                      if(Respuestas[8] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T10]').change(function(){
+                      Respuestas[9] = $( 'input[name=T10]:checked' ).val();   
+                      if(Respuestas[9] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T11]').change(function(){
+                      Respuestas[10] = $( 'input[name=T11]:checked' ).val();   
+                      if(Respuestas[10] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T12]').change(function(){
+                      Respuestas[11] = $( 'input[name=T12]:checked' ).val();   
+                      if(Respuestas[11] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T13]').change(function(){
+                      Respuestas[12] = $( 'input[name=T13]:checked' ).val();   
+                      if(Respuestas[12] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T14]').change(function(){
+                      Respuestas[13] = $( 'input[name=T14]:checked' ).val();   
+                      if(Respuestas[13] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T15]').change(function(){
+                      Respuestas[14] = $( 'input[name=T15]:checked' ).val();   
+                      if(Respuestas[14] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T16]').change(function(){
+                      Respuestas[15] = $( 'input[name=T16]:checked' ).val();   
+                      if(Respuestas[15] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T17]').change(function(){
+                      Respuestas[16] = $( 'input[name=T17]:checked' ).val();   
+                      if(Respuestas[16] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T18]').change(function(){
+                      Respuestas[17] = $( 'input[name=T18]:checked' ).val();   
+                      if(Respuestas[17] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T19]').change(function(){
+                      Respuestas[18] = $( 'input[name=T19]:checked' ).val();   
+                      if(Respuestas[18] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T20]').change(function(){
+                      Respuestas[19] = $( 'input[name=T20]:checked' ).val();   
+                      if(Respuestas[19] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                 $('input[name=T21]').change(function(){
+                      Respuestas[20] = $( 'input[name=T21]:checked' ).val();   
+                      if(Respuestas[20] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                  $('input[name=T22]').change(function(){
+                      Respuestas[21] = $( 'input[name=T22]:checked' ).val();   
+                      if(Respuestas[21] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                   $('input[name=T23]').change(function(){
+                      Respuestas[22] = $( 'input[name=T23]:checked' ).val();   
+                      if(Respuestas[22] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                    $('input[name=T24]').change(function(){
+                      Respuestas[23] = $( 'input[name=T24]:checked' ).val();   
+                      if(Respuestas[23] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T25]').change(function(){
+                      Respuestas[24] = $( 'input[name=T25]:checked' ).val();   
+                      if(Respuestas[24] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T26]').change(function(){
+                      Respuestas[25] = $( 'input[name=T26]:checked' ).val();   
+                      if(Respuestas[25] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                 $('input[name=T27]').change(function(){
+                      Respuestas[26] = $( 'input[name=T27]:checked' ).val();   
+                      if(Respuestas[26] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T28]').change(function(){
+                      Respuestas[27] = $( 'input[name=T28]:checked' ).val();   
+                      if(Respuestas[27] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T29]').change(function(){
+                      Respuestas[28] = $( 'input[name=T29]:checked' ).val();   
+                      if(Respuestas[28] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                 $('input[name=T30]').change(function(){
+                      Respuestas[29] = $( 'input[name=T30]:checked' ).val();   
+                      if(Respuestas[29] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T31]').change(function(){
+                      Respuestas[30] = $( 'input[name=T31]:checked' ).val();   
+                      if(Respuestas[30] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });
+                $('input[name=T32]').change(function(){
+                      Respuestas[31] = $( 'input[name=T32]:checked' ).val();   
+                      if(Respuestas[31] !== '')
+                      {
+                        sw= sw+1;                             
+                      }   
+                });   
+               $('#submit3').click(function(){
+                    location.href ="index.html";
+                    return false;                      
+                });
+               function MandarDatos(){
+                    var parametros = {
+                       "Nombre" : $('input[name=Nombre]').val(),
+                       "Apellido" : $('input[name=Apellido]').val(),
+                       "Correo" : $('input[name=Correo]').val(),       
+                    };
+                    var jsonString = JSON.stringify(Respuestas);
+                    var jsonString2 = JSON.stringify(parametros);
+                    $.ajax({
+
+                        data:  {data : jsonString,parametros:jsonString2}, //datos que se envian a traves de ajax
+                        url:   '../CONTROLADOR/aspirante.php', //archivo que recibe la peticion
+                        type:  'POST', //método de envio
+                        success:  function (response) { //una vez  que el archivo recibe el request lo procesa y lo devuelve
+                              $('#resultados').html(response);
+                         }
+                      
+                     });
+
+               }
+           });
+    </script>
+
+</body>
+
+</html>
